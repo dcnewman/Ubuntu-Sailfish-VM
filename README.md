@@ -1,6 +1,6 @@
 ## THIS IS A WORK IN PROGRESS
 
-**I'LL LOAD THE package.box ON OR AFTER 9 AUGUST 2015 **
+*** I'LL LOAD THE package.box ON OR AFTER 9 AUGUST 2015 ***
 
 This repository contains a 64bit Ubuntu 12.04.5 virtual machine (VM)
 which has an avr-gcc 4.6.3 tool chain pre-built and installed to `/usr`.
