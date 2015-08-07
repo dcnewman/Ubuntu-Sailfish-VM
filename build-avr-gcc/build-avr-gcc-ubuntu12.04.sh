@@ -6,7 +6,8 @@ set -x
 set -e
 
 USRNAME=`whoami`
-PREFIX=/usr/local/
+PREFIX=/usr/
+#PREFIX=/usr/local/
 export PREFIX
 
 PATH=${PREFIX}bin:${PATH}
