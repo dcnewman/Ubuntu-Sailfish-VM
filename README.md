@@ -1,11 +1,12 @@
-This repository provides a shell script and sources for building a
+This repository provides a shell script and sources for building an
 arv-gcc 4.6.3 toolchain on the Desktop Ubuntu 12.04.5 operating system.
 Links are also provided to two pre-built Ubuntu 12.04.5 Virtual Machines
-(VM) with directions on using them with the free VirtualBox and
-Vagrant software.  These pre-built VMs have working avr-gcc 4.6.3
-tool chains installed to `/usr`.  Furthermore, the tarballs used to
-build the tool chains as well as the expanded sources are also stored
-in the VMs:
+(VM) with directions on using them with the free
+[VirtualBox](https://www.virtualbox.org/) and
+[Vagrant VM manger](https://www.vagrantup.com/) software.  These pre-built
+VMs have working avr-gcc 4.6.3 tool chains installed to `/usr`.  Furthermore,
+the tarballs used to build the tool chains as well as the expanded sources
+are also stored in the VMs:
 
 * Tool chain sources: `/home/vagrant/avr-gcc-toolchain/`
 * Tarballs: `/home/vagrant/avr-gcc-toolchain/incoming/`
