@@ -19,8 +19,8 @@ directories are provided for reference.
 As github has a maximum file size of 100 MB, the pre-built VMs are
 stored at Dropbox
 
-* [32bit Ubuntu 12.04.5](https://www.dropbox.com/s/ha8jygy4oj19j1g/ubuntu-32-12.04.5.box?dl=0): 1.3 GB; MD5 checksum e55e9d9db7114e30dd544d5bb940cdc4
-* [64bit Ubuntu 12.04.5](https://www.dropbox.com/s/esnd0m2fnwlr2rk/ubuntu-64-12.04.5.box?dl=0): 1.4 GB; MD5 checksum 79974a05065d6b546ba2b7cef1ce805e
+* [32bit Ubuntu 12.04.5](https://www.dropbox.com/s/ha8jygy4oj19j1g/ubuntu-32-12.04.5.box?dl=0): 1.32 GB; MD5 checksum e55e9d9db7114e30dd544d5bb940cdc4
+* [64bit Ubuntu 12.04.5](https://www.dropbox.com/s/esnd0m2fnwlr2rk/ubuntu-64-12.04.5.box?dl=0): 1.36 GB; MD5 checksum 79974a05065d6b546ba2b7cef1ce805e
 
 The virtual machines are [VirtualBox](https://www.virtualbox.org/) VMs
 packaged for use with the [Vagrant VM manger](https://www.vagrantup.com/).
