@@ -1,11 +1,11 @@
 This repository provides a shell script and sources for building an
 arv-gcc 4.6.3 toolchain on the Desktop Ubuntu 12.04.5 operating system.
-Links are also provided to two pre-built Ubuntu 12.04.5 Virtual Machines
+Links are also provided to a pre-built, 64bit Ubuntu 12.04.5 Virtual Machine
 (VM) with directions on using them with the free
 [VirtualBox](https://www.virtualbox.org/) and
-[Vagrant VM manger](https://www.vagrantup.com/) software.  These pre-built
-VMs have working avr-gcc 4.6.3 tool chains installed to `/usr`.  Furthermore,
-the tarballs used to build the tool chains as well as the expanded sources
+[Vagrant VM manger](https://www.vagrantup.com/) software.  This pre-built
+VM has a working avr-gcc 4.6.3 tool chain installed to `/usr`.  Furthermore,
+the tarballs used to build the tool chain as well as the expanded sources
 are also stored in the VMs:
 
 * Tool chain sources: `/home/vagrant/avr-gcc-toolchain/`
@@ -16,13 +16,12 @@ Keep in mind that the tool chain is already built and installed in
 `/usr`.  You do not need to build it again.  The sources and build
 directories are provided for reference.
 
-As github has a maximum file size of 100 MB, the pre-built VMs are
+As github has a maximum file size of 100 MB, the pre-built VM is
 stored at Dropbox
 
-* [32bit Ubuntu 12.04.5](https://www.dropbox.com/s/ha8jygy4oj19j1g/ubuntu-32-12.04.5.box?dl=0): 1.32 GB; MD5 checksum e55e9d9db7114e30dd544d5bb940cdc4
 * [64bit Ubuntu 12.04.5](https://www.dropbox.com/s/esnd0m2fnwlr2rk/ubuntu-64-12.04.5.box?dl=0): 1.36 GB; MD5 checksum 79974a05065d6b546ba2b7cef1ce805e
 
-The virtual machines are [VirtualBox](https://www.virtualbox.org/) VMs
+The virtual machine is a [VirtualBox](https://www.virtualbox.org/) VM
 packaged for use with the [Vagrant VM manger](https://www.vagrantup.com/).
 You will need to download and install both VirtualBox and Vagrant in
 order to use the package.
@@ -32,12 +31,6 @@ Once VirtualBox and Vagrant are installed and you have downloaded
 
     vagrant box add ubuntu-64-12.04.5 ubuntu-64-12.04.5.box
     vagrant init ubuntu-64-12.04.5
-    vagrant up
-
-Or, for a 32 bit VM,
-
-    vagrant box add ubuntu-32-12.04.5 ubuntu-32-12.04.5.box
-    vagrant init ubuntu-32-12.04.5
     vagrant up
 
 You can then log in to the running VM with the command
